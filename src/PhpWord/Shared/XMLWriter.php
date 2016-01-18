@@ -23,12 +23,12 @@ use PhpOffice\PhpWord\Settings;
  * XMLWriter wrapper
  *
  * @method bool endElement()
- * @method bool startDocument(string $version = 1.0, string $encoding = null, string $standalone = null)
- * @method bool startElement(string $name)
- * @method bool text(string $content)
- * @method bool writeAttribute(string $name, mixed $value)
- * @method bool writeElement(string $name, string $content = null)
- * @method bool writeRaw(string $content)
+ * @method bool startDocument(SharedString $version = 1.0, SharedString $encoding = null, SharedString $standalone = null)
+ * @method bool startElement(SharedString $name)
+ * @method bool text(SharedString $content)
+ * @method bool writeAttribute(SharedString $name, mixed $value)
+ * @method bool writeElement(SharedString $name, SharedString $content = null)
+ * @method bool writeRaw(SharedString $content)
  */
 class XMLWriter
 {

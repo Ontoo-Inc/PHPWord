@@ -27,10 +27,10 @@ use PhpOffice\PhpWord\Settings;
  * properties and methods are bypassed and used as the model for the PCLZip
  * emulation. Only needed PHP ZipArchive features are implemented.
  *
- * @method  bool addFile(string $filename, string $localname = null)
- * @method  bool addFromString(string $localname, string $contents)
- * @method  string getNameIndex(int $index)
- * @method  int locateName(string $name)
+ * @method  bool addFile(SharedString $filename, SharedString $localname = null)
+ * @method  bool addFromString(SharedString $localname, SharedString $contents)
+ * @method  SharedString getNameIndex(int $index)
+ * @method  int locateName(SharedString $name)
  *
  * @since   0.10.0
  */
